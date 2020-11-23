@@ -1,0 +1,184 @@
+body {
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+h3 {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: bolder; }
+
+.navbar-top {
+  background-color: #9b9a9b;
+  border-radius: 0px;
+  margin-bottom: 0px; }
+  .navbar-top .header-title {
+    margin-top: 0px; }
+    .navbar-top .header-title a {
+      font-size: 20px;
+      color: #f9bafa; }
+  .navbar-top .navbar-menu li a {
+    color: #fff; }
+    .navbar-top .navbar-menu li a:hover {
+      color: #fe9e15; }
+
+.img-bg-center-title {
+  background: url("../images/IMG_1040.jpg") 50% no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .img-bg-center-title .introduction {
+    margin-bottom: 5px;
+    font-style: italic; }
+    @media (max-width: 768px) {
+      .img-bg-center-title .introduction {
+        font-size: 22px; } }
+  .img-bg-center-title .name-welcome {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bolder;
+    margin-bottom: 100px; }
+    @media (min-width: 768px) {
+      .img-bg-center-title .name-welcome {
+        font-size: 50px; } }
+    @media (max-width: 767px) {
+      .img-bg-center-title .name-welcome {
+        font-size: 30px; } }
+  .img-bg-center-title .scroll-tag {
+    font-size: 22px;
+    padding: 50px;
+    position: relative; }
+    @media (max-width: 768px) {
+      .img-bg-center-title .scroll-tag {
+        font-size: 18px; } }
+    .img-bg-center-title .scroll-tag:before {
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-bottom: 1px solid #fff;
+      border-left: 1px solid #fff;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      transform: rotate(-45deg);
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-name: moving-arrow-down; }
+@keyframes moving-arrow-down {
+  0% {
+    bottom: 0px; }
+  50% {
+    bottom: -20px; }
+  100% {
+    bottom: 0px; } }
+.our-vision {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #fff; }
+  .our-vision .about-us {
+    text-align: center; }
+    .our-vision .about-us img {
+      width: 200px;
+      height: 200px;
+      margin-bottom: 30px; }
+    .our-vision .about-us p {
+      color: #fe9e15;
+      font-size: 18px;
+      font-weight: bold;
+      padding-bottom: 30px; }
+
+.project {
+  background-color: #f5f5f4;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .project .awesome-project {
+    text-align: center;
+    padding-bottom: 50px; }
+  .project .project-1 {
+    margin-bottom: 50px; }
+    @media (max-width: 439px) {
+      .project .project-1 .media-left {
+        padding: 0;
+        display: block;
+        text-align: center; } }
+    .project .project-1 .media-left img {
+      width: 300px; }
+      @media (max-width: 439px) {
+        .project .project-1 .media-left img {
+          display: inline; } }
+    @media (max-width: 439px) {
+      .project .project-1 .media-body {
+        text-align: center; } }
+  .project .project-2 {
+    margin-bottom: 50px; }
+    @media (max-width: 439px) {
+      .project .project-2 .media-right {
+        padding: 0;
+        display: block;
+        text-align: center; } }
+    .project .project-2 .media-right img {
+      width: 300px; }
+      @media (max-width: 439px) {
+        .project .project-2 .media-right img {
+          display: inline; } }
+    .project .project-2 .media-body {
+      text-align: right; }
+      @media (max-width: 439px) {
+        .project .project-2 .media-body {
+          text-align: center; } }
+  @media (max-width: 439px) {
+    .project .project-3 .media-left {
+      padding: 0;
+      display: block;
+      text-align: center; } }
+  .project .project-3 .media-left img {
+    width: 300px; }
+    @media (max-width: 439px) {
+      .project .project-3 .media-left img {
+        display: inline; } }
+  @media (max-width: 439px) {
+    .project .project-3 .media-body {
+      text-align: center; } }
+
+.our-team {
+  background-color: #f9bafa;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .our-team h3 {
+    padding-bottom: 20px; }
+  .our-team img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px; }
+  .our-team h4 {
+    padding-bottom: 20px; }
+  .our-team p {
+    padding-bottom: 5px; }
+  .our-team .fa-facebook {
+    font-size: 50px; }
+
+.contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: url("../images/blogpost_minimalistlifestyle_1260x2890px.jpg") 50% no-repeat;
+  background-size: cover;
+  text-align: center; }
+  .contact h3 {
+    text-align: center;
+    padding-bottom: 30px; }
+  .contact P {
+    font-size: 18px; }
+
+footer {
+  background-color: #9b9a9b;
+  color: #fff;
+  text-align: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px; }
+  footer p {
+    margin: 0; }
+
+/*# sourceMappingURL=my-page.css.map */
